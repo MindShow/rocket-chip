@@ -1,15 +1,15 @@
 Rocket Chip Generator :rocket: [![Build Status](https://travis-ci.org/freechipsproject/rocket-chip.svg?branch=master)](https://travis-ci.org/freechipsproject/rocket-chip)
 =====================
 
-This repository contains the Rocket chip generator necessary to instantiate
+This repository contains the Rocket chip generator necessary to instantiate(例化)
 the RISC-V Rocket Core. For more information on Rocket Chip, please consult our [technical report](http://www.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-17.html).
 
 ## Table of Contents
 
-+ [Quick instructions](#quick) for those who want to dive directly into the details without knowing exactly what's in the repository.
++ [Quick instructions](#quick) for those who want to dive(潜水) directly into the details without knowing exactly what's in the repository.
 + [What's in the Rocket chip generator repository?](#what)
 + [How should I use the Rocket chip generator?](#how)
-    + [Using the cycle-accurate Verilator simulation](#emulator)
+    + [Using the cycle-accurate(周期精确) Verilator(自由Verilog HDL模拟器) simulation](#emulator)
     + [Mapping a Rocket core down to an FPGA](#fpga)
     + [Pushing a Rocket core through the VLSI tools](#vlsi)
 + [How can I parameterize my Rocket chip?](#param)
